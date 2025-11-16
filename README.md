@@ -36,6 +36,18 @@ Open `http://localhost:3000`
 
 ## Technical Decisions & Tradeoffs
 
+### Approach
+
+Built this as a functional MVP in ~3 hours. Focused on getting core features working rather than polish. Started with the API integration, then built out the UI components, and added persistence last.
+
+### Assumptions
+
+- Users will primarily use this on desktop (minimal mobile optimization)
+- TMDB API rate limits won't be an issue for personal use
+- Browser supports modern JavaScript (ES6+, fetch API)
+- localStorage is acceptable for the baseline requirement
+- Users want to track favorites locally, not share across devices
+
 ### API Proxy
 
 Used Next.js API routes to proxy TMDB requests. This keeps the API key secure on the server rather than exposing it in client code.
