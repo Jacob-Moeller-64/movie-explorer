@@ -2,7 +2,7 @@
 
 A movie search app with favorites management built with Next.js and TMDB API.
 
-**Live Demo:**
+**Live Demo:** https://movie-explorer-lovat-five.vercel.app/
 
 ## Setup
 
